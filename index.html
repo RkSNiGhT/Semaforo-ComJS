@@ -6,6 +6,7 @@
     <title>Semaforo</title>
 
     <link  rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
@@ -13,20 +14,22 @@
         <div class="traffic-light">
 
             <div class="panel">
-                <div class="light off">
+                <div id="red" class="light off">
 
                 </div>
-                <div class="light off">
+                <div id="yellow" class="light off">
 
                 </div>
-                <div class="light off">
+                <div id="green" class="light green">
                     
                 </div>
             </div>
 
         </div>
-        <button>Click Me!</button>
+        <button onclick="changelight()">Click Me!</button>
     </div>
 
+
+        <script src="logica.js"></script>
 </body>
 </html>
